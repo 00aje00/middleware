@@ -1,2 +1,5 @@
 Hello there.
-This is a jenkins installation script. ENJOY
+This is a commonware list of installation scripts. ENJOY
+tools/apps included:
+> jenkins
+> sonarQube

@@ -2,11 +2,11 @@
 
 # author: me, bitch
 # date: anyone
-# purpose: setup jenkins in a centOS environment
+# purpose: setup docker in a centOS environment
 
 #==========================> removing all old docker files <======================================
 
-sudo yum update
+sudo yum update -y
 sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
 
 #==========================> installing the docker repositories <=================================
@@ -16,7 +16,7 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 
 #==========================> installing latest docker engine <===================================
 
-sudo yum install docker-ce docker-ce-cli containerd.io
+sudo yum install -y docker-ce docker-ce-cli containerd.io
 
 #==========================> chekcing docker status <===========================================
 
